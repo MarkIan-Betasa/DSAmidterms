@@ -1,6 +1,8 @@
 # **REACT JS**
 
-A library is a collection of prewritten code snippets that developers can use and reuse to perform various JavaScript functions. The purpose of a library is to equip developers with prewritten structures of code with specified functions to make coding faster, more efficient, and less repetitive for the developers. React is one such library. React is an open-source JavaScript library created by Facebook in 2011 designed to help developers build the front-end  of a website, or the user interface (UI). React is currently the most popular JavaScript library for building user interfaces. It is important to remember that React is only a library and not a framework like Angular or Vue, as React is not an all-in-one development solution.
+A **library** is a collection of prewritten code snippets that developers can use and reuse to perform various JavaScript functions. The purpose of a library is to equip developers with prewritten structures of code with specified functions to make coding faster, more efficient, and less repetitive for the developers. [React](https://react.dev/) is one such library. React is an open-source JavaScript library created by Facebook in 2011 designed to help developers build the front-end  of a website, or the user interface. React is currently the most popular JavaScript library for building user interfaces. It is important to remember that React is only a library and not a framework like [Angular](https://angular.dev/) or [Vue](https://vuejs.org/), as React is not an all-in-one development solution.
+
+&nbsp;
 
 ## ***Key Features*** 
 
@@ -28,6 +30,8 @@ Because React.js is component-based, it separates the page into several parts. E
 **8. Simplicity:**
 React.js employs JSX, a blend of HTML and JavaScript, and is component-based, making the code reusable. This reduces the amount of code and makes it easier to comprehend and troubleshoot.
 
+&nbsp;
+
 ## ***How to Setup React***
 #### **Prerequisite requirements** 
 Before installing React JS, the following software should be installed in your computer.
@@ -36,11 +40,39 @@ Before installing React JS, the following software should be installed in your c
   
     - Download Node.js on the provided link above. When finished downloading, open it then just click `next` on every step until the `install`. When the install button appears, click it and wait for, then click `finish`.
 
+-	To use React JS, a code editor should be installed in the computer. A good code editor like [Visual Studio Code](https://code.visualstudio.com/download) is recommended for React development.
+
 In command prompt:
 
     node -v
     npm -v
+    code --version
 
-`node -v` and `npm -v` will check if the installation is finished. If you see the version of the node you installed, then you are good to go. Similarly, you can check if a Node JS version already exist in your computer by writing the same code. You can also check if Node JS installation was successful by clicking ![windows logo](https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2021.svg) then type Node JS. You should see a Node JS app as you type.
+`node -v` and `npm -v` will check if the installation of Node JS is successful, while  `code --version` will check the version of the VS code installed in your computer. If you see the version of the node you installed, then you are good to go. Similarly, you can check if a Node JS version already exist in your computer by writing the same code. You can also check if Node JS installation was successful by clicking `🪟` (windows logo) then type Node JS. You should see a Node JS app as you type.
+
+&nbsp;
 
 #### **React Installation Step-by-Step** 
+## ***Step 1***
+Create a new folder. For the sake of this example, name the folder as **REACTJS**. Once the folder is created, open the **Visual Studio Code** and navigate in the `menu bar`. Under file, select **`open folder`** then select the folder you just created.
+## ***Step 2***
+Make sure that you are in the correct folder, if not repeat step 1.  Inside Visual Studio Code, click `view` in the `menu bar`, then select **`terminal`**. 
+## ***Step 3***
+Inside the terminal, write this command:
+
+    npx create-react-app react-first-project
+
+`npx create-react-app` enables an easy setup of a new React project with all necessary folder structure, dependencies, and configuration files. In our example, `react-first-project` is the name of our project. After a couple of minutes, the process of installation will be done and you should now be able to use React in your computer. 
+## ***Step 4***
+Run Node JS application:
+
+    cd react-first-project (this is the name of the file) 
+    npm start
+
+React JS should now appear in your browser. 
+
+&nbsp;
+
+**Congratulations!** You have now successfully set up a React project on your computer. You can now create interactive and dynamic user interfaces using React. **Happy coding!** For more information on how to setup React JS, visit [setup](https://blog.hubspot.com/website/react-js) or you can watch this [video tutorial](https://www.youtube.com/watch?v=HIdPpm-0ZNQ).
+
+
