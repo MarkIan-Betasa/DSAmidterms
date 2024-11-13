@@ -19,9 +19,7 @@ As the name implies, one-way data binding flows solely downstream or one-way. Un
 Because React uses virtual DOM and only updates the updated portions, the DOM operates faster and more efficient. 
 
 **5. Extension:**
-With the help of React's numerous extensions, we can build whole user interface applications. Both server-side rendering and mobile app development are supported. To assist us design visually appealing user interfaces, React has been expanded with Flux, Redux, React Native, and other tools. 
-
-<!-- need to commit the changes later. [] above links -->
+With the help of React's numerous extensions, we can build whole user interface applications. Both server-side rendering and mobile app development are supported. To assist us design visually appealing user interfaces, React has been expanded with [Flux](http://fluxxor.com/what-is-flux.html), [Redux](https://redux.js.org/), [React Native](https://reactnative.dev/), and other tools. 
 
 **6. Conditional Statements:**
 It is possible to write conditional statements using JSX. The data in the browser is based on the conditions specified inside the JSX.
